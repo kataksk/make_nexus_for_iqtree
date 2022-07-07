@@ -9,3 +9,9 @@ python make_nexus_for_iqtree.py -s [suffix name] -i [path to directory]
 ```
 
 `partition.nexus` will be generated.
+
+## Example
+
+```
+python make_nexus_for_iqtree.py -s fa.trimal.aln.renamed.fa -i /path/to/directory/of/fasta/files
+```
