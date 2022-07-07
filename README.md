@@ -10,6 +10,12 @@ python make_nexus_for_iqtree.py -s [suffix name] -i [path to directory]
 
 `partition.nexus` will be generated.
 
+After this, execute iq-tree, for example.
+
+```
+iqtree -sp partition.nexus -nt AUTO -bb 1000 -m MFP -alrt 1000
+```
+
 ## Example
 
 ```
